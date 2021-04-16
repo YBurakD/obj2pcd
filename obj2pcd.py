@@ -18,7 +18,7 @@ VIEWPOINT 0 0 0 1 0 0 0
 POINTS {0}
 DATA ascii
 """
-parser = argparse.ArgumentParser(description='Find a solution for given AI problem.')
+parser = argparse.ArgumentParser(description='Convert an obj file to a pcd file.')
 parser.add_argument('-i', "--input", type=str, nargs=1, help='Input file(*.obj)')
 parser.add_argument('-o', "--output", type=str, nargs=1, help='Output file(*.pcd)')
 
